@@ -5,7 +5,7 @@ This module sets up a S3 bucket (backend) for storing (and sharing) states of in
 ```
 module "s3backend" {
   source  = "skwokie/s3backend/aws"
-  version = "0.1.0"
+  version = "0.1.1"
   namespace = "change_this"
 }
 ```
